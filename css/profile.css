@@ -1,5 +1,5 @@
 @font-face {
-   font-family: vag;
+   font-family: modernH;
    src: url(fonts/ModernH-Medium.ttf);
 }
 
@@ -9,7 +9,7 @@ body {
 }
 
 p{
-    font-family: vag;
+    font-family: modernH;
     font-size: 20px;
 }
 

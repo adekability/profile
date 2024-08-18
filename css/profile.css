@@ -1,0 +1,46 @@
+@font-face {
+   font-family: vag;
+   src: url(fonts/ModernH-Medium.ttf);
+}
+
+body {
+  background: #111;
+  color: white;
+}
+
+p{
+    font-family: vag;
+    font-size: 20px;
+}
+
+#base_div{
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#profile_info_div{
+    float: right;
+    margin-right: 280px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.side-oyu-left-image {
+    position: absolute;
+    top: 0;
+    left: 0; /* Move to the right side */
+    height: 1000px; /* Adjust to how much repetition you want */
+    background: url('../images/side-oyu.jpg') repeat-y;
+    width: 150px; /* Image width */
+    z-index: -1;
+}
+
+.side-oyu-right-image {
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 1000px;
+    background: url('../images/side-oyu.jpg') repeat-y;
+    width: 150px;
+}

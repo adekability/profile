@@ -25,7 +25,15 @@ p{
     margin-top: 50px;
     text-align: center;
 }
-
+#single_range{
+    float: right;
+    margin-right: 500px;
+    margin-top: 50px;
+    text-align: center;
+}
+#single_range datalist option {
+  color: white; /* Change the color to white or any other desired color */
+}
 .side-oyu-left-image {
     position: absolute;
     top: 0;

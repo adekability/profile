@@ -52,3 +52,9 @@ p{
     background: url('../images/side-oyu.jpg') repeat-y;
     width: 150px;
 }
+#footer{
+    float: bottom;
+    margin-right: 0px;
+    margin-top: 500px;
+    text-align: center;
+}
